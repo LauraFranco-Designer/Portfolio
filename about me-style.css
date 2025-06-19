@@ -290,6 +290,7 @@ header .navbar {
 .how-work-section .tasks { 
 	display: flex;
 	padding: 35px;
+	flex: 0 0 45%; /* Adjust to allow 4 in a row with some spacing */
 	text-align: center;
 	flex-direction: column;
 	align-items: center;
@@ -315,7 +316,7 @@ header .navbar {
 	margin-top: 10px;
 	font-size: var(--font-size-m);
 	color: var(--dark-color);
-	max-width: 70%;
+	max-width: 100%;
 }
 
 /* Timeline */
@@ -690,6 +691,25 @@ position: relative;
 		display: flex; /* only this */
 		flex-direction: column;
 	}
+
+.how-work-section .tasks { 
+	display: flex;
+	padding: 35px;
+	flex: 0 0 100%; /* Adjust to allow 4 in a row with some spacing */
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.how-work-section .section-container .tasks .description  { 
+	line-height: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: var(--font-size-m);
+	color: var(--dark-color);
+	max-width: 100%;
+}
 
 	.project-section .project-list .project-item {
 		width: 100%;
