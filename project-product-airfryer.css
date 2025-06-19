@@ -339,19 +339,40 @@ header .navbar {
 }
 
 /* Detail 1 */
-.maininsights-section .insights-details1 { 
-    width: 100%; /* Take full width */
-    max-width: 100%; /* Ensure no restriction */
+
+.maininsights-section .section-container .tasks-list { 
+    padding: 0px 0px 23px 0px;
+    background: var(--light-color);
+    display: flex; /* Apply flexbox to the container */
+    flex-wrap: wrap; /* Allow wrapping of tasks if necessary */
+    flex-direction: row;
+    justify-content: space-between; /* Distribute tasks evenly */
 }
 
-.maininsights-section .insights-details1 .text { 
-    line-height: 30px;
-    margin:23px 0px 23px 0px;
-    text-align: center;
-    font-size: var(--font-size-m);
-    color: var(--dark-color);
+.maininsights-section .tasks { 
+	display: flex;
+	padding: 35px;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	flex: 0 0 100%; /* Adjust to allow 4 in a row with some spacing */
+    box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
+.maininsights-section .tasks .task-image{ 
+ 	height: 250px;
+	width: 250px;
+ 	object-fit: cover;
+ 	margin-bottom: 30px;
+}
+
+.maininsights-section .tasks .task-title { 
+	margin-top: 0px;
+	margin-bottom: 18px;
+	font-size: var(--font-size-m);
+	color: var(--dark-color);
+}
 
 
 /* prototyp section styling */
@@ -594,6 +615,26 @@ header .navbar {
 	.research-section .research-image_system { 
     width: 80%; /* Ensure it takes full width */
     text-align: center; /* Center the image */
+}
+
+.frominsighttoreccomandation-section .section-content .section-container .tasks-list { 
+    padding: 0px 0px 23px 0px;
+    background: var(--light-color);
+    display: flex; /* Apply flexbox to the container */
+    flex-wrap: wrap; /* Allow wrapping of tasks if necessary */
+    flex-direction: row;
+    justify-content: space-between; /* Distribute tasks evenly */
+}
+
+.frominsighttoreccomandation-section .tasks { 
+	display: flex;
+	padding: 35px;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	flex: 0 0 100%; /* Adjust to allow 4 in a row with some spacing */
+    box-sizing: border-box;
+    margin-bottom: 30px;
 }
 
   .research-section .tasks {
