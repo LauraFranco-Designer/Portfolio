@@ -795,6 +795,16 @@ header .navbar {
         flex: 0 0 100%;
     }
 
+     .concept-section .section-content .tasks-list {
+        flex-direction: column; /* Stack tasks vertically */
+        align-items: center; /* Center them if needed */
+    }
+
+    .concept-section .tasks {
+        flex: 0 0 100%; /* Take full width */
+        max-width: 100%;
+    }
+
 .exhibition-section .section-content .exhibition-video { 
     width: 80%;
 }
