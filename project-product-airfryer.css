@@ -334,7 +334,7 @@ header .navbar {
     align-items: center; /* Center align content */
     text-align: center;
     gap: 20px; /* Adjust spacing */
-    margin-bottom: 70px;
+    margin-bottom: 0px;
     width: 100%; /* Ensure it takes full width */
 }
 
@@ -393,7 +393,7 @@ header .navbar {
     align-items: center; /* Center align content */
     text-align: center;
     gap: 20px; /* Adjust spacing */
-    margin-bottom: 70px;
+    margin-bottom: 0px;
     width: 100%; /* Ensure it takes full width */
 }
 

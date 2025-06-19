@@ -672,7 +672,7 @@ position: relative;
 
 
 .about-section .about-details .section-text {
-    margin-top: 100px; /* Add or increase top margin */
+    margin-top: 150px; /* Add or increase top margin */
 }
 
 	.about-section .section-content {
@@ -681,7 +681,7 @@ position: relative;
 
 
 .about-section .about-image-wrapper {
-	padding-top: 100px;
+	padding-top: 150px;
     margin-bottom: 46px;
 }
 
