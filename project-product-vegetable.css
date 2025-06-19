@@ -314,6 +314,41 @@ header .navbar {
 }
 
 
+/* Design Goal section styling */
+.designgoal-section { 
+	padding: 23px 0px 23px 0px;
+	background: var(--primary-color);
+}
+
+.designgoal-section .section-title { 
+	padding: 23px 0px 23px 0px;
+	color: var(--light-color);
+	text-align: center;
+}
+
+.designgoal-section .section-content { 
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align content */
+    text-align: center;
+    gap: 20px; /* Adjust spacing */
+    width: 100%; /* Ensure it takes full width */
+}
+
+/* Detail 1 */
+.designgoal-section .designgoal-details1 { 
+    width: 100%; /* Take full width */
+    max-width: 100%; /* Ensure no restriction */
+}
+
+.designgoal-section .designgoal-details1 .text { 
+    line-height: 30px;
+    margin:23px 0px 23px 0px;
+    text-align: center;
+    font-size: var(--font-size-m);
+    color: var(--light-color);
+}
+
 
 /* prototyp section styling */
 .prototype-section { 

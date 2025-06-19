@@ -794,6 +794,7 @@ header .navbar {
   .research-section .tasks {
         flex: 0 0 100%;
     }
+    
 
      .concept-section .section-content .tasks-list {
         flex-direction: column; /* Stack tasks vertically */

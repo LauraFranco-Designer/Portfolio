@@ -250,7 +250,6 @@ header .navbar {
     align-items: center; /* Center align content */
     text-align: center;
     gap: 20px; /* Adjust spacing */
-    margin-bottom: 70px;
     width: 100%; /* Ensure it takes full width */
 }
 
@@ -268,9 +267,12 @@ header .navbar {
     color: var(--dark-color);
 }
 
-.research-section .research-image_system { 
-    width: 40%; /* Ensure it takes full width */
-    text-align: center; /* Center the image */
+.research-section .research-details1 .text1 { 
+    line-height: 30px;
+    margin:92px 0px 23px 0px;
+    text-align: center;
+    font-size: var(--font-size-m);
+    color: var(--dark-color);
 }
 
 
