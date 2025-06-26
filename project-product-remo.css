@@ -279,7 +279,48 @@ header .navbar {
 }
 
 
-/* redesign section styling */
+
+/* Design Goal section styling */
+.workinprogress-section { 
+	padding: 23px 0px 23px 0px;
+	background: var(--primary-color);
+}
+
+.workinprogress-section .section-title { 
+	padding: 23px 0px 23px 0px;
+	color: var(--light-color);
+	text-align: center;
+}
+
+.workinprogress-section .section-content { 
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align content */
+    text-align: center;
+    gap: 20px; /* Adjust spacing */
+    width: 100%; /* Ensure it takes full width */
+}
+
+/* Detail 1 */
+.workinprogress-section .workinprogress-details1 { 
+    width: 100%; /* Take full width */
+    max-width: 100%; /* Ensure no restriction */
+}
+
+.workinprogress-section .workinprogress-details1 .text { 
+    line-height: 30px;
+    margin:23px 0px 23px 0px;
+    text-align: center;
+    font-size: var(--font-size-m);
+    color: var(--light-color);
+}
+
+
+
+
+
+
+/* redesign section styling 
 .redesign-section { 
 	padding: 100px 0px 23px 0px;
 	background: var(--light-color);
@@ -319,6 +360,8 @@ header .navbar {
     width: 60%; /* Ensure it takes full width */
     text-align: center; /* Center the image */
 }
+
+*/
 
 /* Footer Section styling */
 .footer-section { 

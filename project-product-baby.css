@@ -258,7 +258,7 @@ header .navbar {
     max-width: 100%; /* Ensure no restriction */
 }
 
-.research-section .research-details1 .text { 
+.research-section .section-content .text { 
     line-height: 30px;
     margin:23px 0px 23px 0px;
     text-align: center;
@@ -357,6 +357,44 @@ header .navbar {
     width: 90%; /* Ensure it takes full width */
     text-align: center; /* Center the image */
 }
+
+
+/* Design Goal section styling */
+.designgoal-section { 
+	padding: 23px 0px 23px 0px;
+	background: var(--primary-color);
+}
+
+.designgoal-section .section-title { 
+	padding: 23px 0px 23px 0px;
+	color: var(--light-color);
+	text-align: center;
+}
+
+.designgoal-section .section-content { 
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align content */
+    text-align: center;
+    gap: 20px; /* Adjust spacing */
+    width: 100%; /* Ensure it takes full width */
+}
+
+/* Detail 1 */
+.designgoal-section .designgoal-details1 { 
+    width: 100%; /* Take full width */
+    max-width: 100%; /* Ensure no restriction */
+}
+
+.designgoal-section .designgoal-details1 .text { 
+    line-height: 30px;
+    margin:23px 0px 23px 0px;
+    text-align: center;
+    font-size: var(--font-size-m);
+    color: var(--light-color);
+}
+
+
 
 
 /* prototyp section styling */
@@ -485,6 +523,94 @@ header .navbar {
     width: 90%; /* Ensure it takes full width */
     text-align: center; /* Center the image */
 }
+
+
+/* Research section styling */
+.evaluation-section { 
+	padding: 23px 0px 23px 0px;
+	background: var(--light-color);
+}
+
+.evaluation-section .section-title { 
+	padding: 46px 0px 23px 0px;
+	color: var(--dark-color);
+	text-align: center;
+}
+
+.evaluation-section .section-content { 
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align content */
+    text-align: center;
+    gap: 20px; /* Adjust spacing */
+    width: 100%; /* Ensure it takes full width */
+}
+
+/* Detail 1 */
+.evaluation-section .evaluation-details1 { 
+    width: 100%; /* Take full width */
+    max-width: 100%; /* Ensure no restriction */
+}
+
+.evaluation-section .evaluation-details1 .text { 
+    line-height: 30px;
+    margin:23px 0px 23px 0px;
+    text-align: center;
+    font-size: var(--font-size-m);
+    color: var(--dark-color);
+}
+
+.evaluation-section .evaluation-details1 .text a {
+	color: var(--dark-color);
+	font-weight: var(--font-weight-semibold);
+  text-decoration: none; /* Optional: removes underline */
+}
+
+.evaluation-section .section-container .tasks-list { 
+    padding: 0px 0px 23px 0px;
+    background: var(--light-color);
+    display: flex; /* Apply flexbox to the container */
+    flex-wrap: wrap; /* Allow wrapping of tasks if necessary */
+    flex-direction: row;
+    justify-content: space-between; /* Distribute tasks evenly */
+}
+
+.evaluation-section .tasks { 
+	display: flex;
+	padding: 35px;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	flex: 0 0 30%; /* Adjust to allow 4 in a row with some spacing */
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.evaluation-section .tasks .task-image{ 
+ 	height: 180px;
+	width: 180px;
+ 	object-fit: cover;
+ 	margin-bottom: 30px;
+}
+
+.evaluation-section .tasks .task-title { 
+	margin-top: 0px;
+	margin-bottom: 18px;
+	font-size: var(--font-size-m);
+	color: var(--dark-color);
+}
+
+.evaluation-section .tasks .description  { 
+	line-height: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: var(--font-size-m);
+	color: var(--dark-color);
+	max-width: 100%;
+}
+
+
+
 
 /* Recap Section styling */
 .recap-section {
