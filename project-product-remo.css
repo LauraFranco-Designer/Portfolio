@@ -87,6 +87,32 @@ img {
 	background: var(--secondary-color);
 }
 
+
+.go-top-btn { 
+	position: fixed;
+	bottom: 35px;
+	right: 35px;
+	cursor: pointer;
+	display: none;
+}
+
+.go-top-btn img { 
+	height: 50px;
+	width: 50px;
+}
+
+.go-back-btn { 
+	position: fixed;
+	top: 140px;
+	left: 35px;
+	cursor: pointer;
+}
+
+.go-back-btn img { 
+	height: 30px;
+	width: 30px;
+}
+
 /* Navbar styling */
 header { 
 	position: fixed;
@@ -307,6 +333,10 @@ header .navbar {
     max-width: 100%; /* Ensure no restriction */
 }
 
+.workinprogress-section .workinprogress-details1 .workinprogress-image { 
+    max-width: 10%;
+}
+
 .workinprogress-section .workinprogress-details1 .text { 
     line-height: 30px;
     margin:23px 0px 23px 0px;
@@ -474,4 +504,8 @@ header .navbar {
 		flex-direction: column;
 		gap: 20px;
 	}
+
+	.workinprogress-section .workinprogress-details1 .workinprogress-image { 
+    max-width: 20%;
+}
 }
