@@ -160,7 +160,7 @@ header .navbar {
 
 .hero-section .hero-details .description { 
 	margin-top: 8px; 
-	margin-bottom: 16px;
+	margin-bottom: 46px;
 	max-width: 90%;
 	font-size: var(--font-size-xl);
 	font-weight: var(--font-weight-semibold);
