@@ -416,6 +416,11 @@ header .navbar {
     text-align: center; /* Center the image */
 }
 
+.insights-section .insights-image2 { 
+    width: 90%; /* Ensure it takes full width */
+    text-align: center; /* Center the image */
+}
+
 
 /* Design Goal section styling */
 .designgoal-section { 
