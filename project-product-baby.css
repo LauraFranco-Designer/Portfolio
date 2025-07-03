@@ -885,7 +885,7 @@ header .navbar {
 		text-align: center; /* Center the image */
 	}
   	.prototype-section .research-image_system { 
-    width: 80%; /* Ensure it takes full width */
+    width: 100%; /* Ensure it takes full width */
     text-align: center; /* Center the image */
 }
 	.prototype-section .tasks {
@@ -901,6 +901,19 @@ header .navbar {
 		width: 80%; /* Ensure it takes full width */
 		text-align: center; /* Center the image */
 	}
+
+.evaluation-section .section-content .section-container .tasks-list {
+    display: flex;
+    flex-direction: column;     /* Stack items vertically */
+    align-items: center;        /* Center items horizontally in the column */
+    justify-content: center;    /* Optional: center vertically if container has height */
+    width: 100%;                /* Allow full width for centering */
+    margin: 0 auto;             /* Center the whole list within its parent */
+    padding: 0;
+    list-style: none;
+}
+
+
 
 
 .exhibition-section .section-content .exhibition-video { 

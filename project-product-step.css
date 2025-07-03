@@ -230,6 +230,64 @@ header .navbar {
     font-weight: var(--font-weight-semibold);
 }
 
+/* Personal reflection */
+.personal-section { 
+	padding: 23px 0px 23px 0px;
+	background: var(--primary-color);
+}
+
+.personal-section .section-title { 
+	padding: 23px 0px 23px 0px;
+	color: var(--light-color);
+	text-align: center;
+}
+
+.personal-section .section-content { 
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align content */
+    text-align: center;
+    gap: 20px; /* Adjust spacing */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.personal-section .section-content .section-container .tasks-list { 
+    padding: 0px 0px 23px 0px;
+    display: flex; /* Apply flexbox to the container */
+    flex-wrap: wrap; /* Allow wrapping of tasks if necessary */
+    flex-direction: row;
+    justify-content: space-between; /* Distribute tasks evenly */
+}
+
+.personal-section .tasks { 
+	display: flex;
+	padding: 23px;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	flex: 0 0 100%; /* Adjust to allow 4 in a row with some spacing */
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+.personal-section .tasks .task-title { 
+	margin-top: 0px;
+	margin-bottom: 18px;
+	font-size: var(--font-size-m);
+	color: var(--light-color);
+}
+
+.personal-section .tasks .description  { 
+	line-height: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: var(--font-size-m);
+	color: var(--light-color);
+	max-width: 100%;
+}
+
+
+
 
 /* Research section styling */
 .research-section { 
