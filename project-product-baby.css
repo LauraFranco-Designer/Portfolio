@@ -892,6 +892,12 @@ header .navbar {
         flex: 0 0 100%;
     }
 
+
+.prototype-section .prototype-image1 { 
+    width: 80%; /* Ensure it takes full width */
+    text-align: center; /* Center the image */
+}
+
 	.insights-section .insights-image1 { 
 		width: 80%; /* Ensure it takes full width */
 		text-align: center; /* Center the image */
