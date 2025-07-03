@@ -484,7 +484,55 @@ header .navbar {
     text-align: center; /* Center the image */
 }
 
-*/
+
+/* Recap Section styling */
+.recap-section {
+	padding: 100px 0px 23px 0px;
+	background-color: var(--primary-color);
+  }
+
+.recap-section .section-content .buttons { 
+	display: flex;
+	justify-content: center;
+}
+
+.recap-section .section-content .button { 
+	padding: 10px 26px;
+	border: 2px solid transparent;
+	color: var(--light-color);
+	border-radius: var(--border-radius-m);
+	background: var(--secondary-color);
+	font-weight: var(--font-weight-medium);
+	transition: 0.3s ease;
+}
+
+.recap-section .section-content .button:hover,
+.recap-section .section-content .button .full-report { 
+	color: var(--secondary-color);
+	border-color: var(--secondary-color);
+	background: transparent;
+}
+
+.recap-section .about-details .contact-me:hover  { 
+	color: var(--light-color);
+	border-color: var(--secondary-color);
+	background: var(--secondary-color);
+}
+  
+  .recap-section .section-content {
+	display: flex;
+	flex-direction: column; /* 🔥 importante per disposizione verticale */
+	align-items: center;     /* centra tutto orizzontalmente */
+	text-align: center;      /* centra il testo */
+  }
+  
+  .recap-section .section-content .text {
+	line-height: 30px;
+	margin: 23px 0;
+	font-size: var(--font-size-m);
+	color: var(--light-color);
+  }
+
 
 /* Footer Section styling */
 .footer-section { 

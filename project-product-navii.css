@@ -324,12 +324,12 @@ header .navbar {
     color: var(--dark-color);
 }
 
-.research-section .research-details1 .research-image_balance { 
+.research-section .research-details1 .research-image_system { 
     width: 50%; /* Ensure it takes full width */
     text-align: center; /* Center the image */
 }
-.research-section .research-details1 .research-image_scenario { 
-    width: 90%; /* Ensure it takes full width */
+.research-section .research-details1 .research-image_journey { 
+    width: 100%; /* Ensure it takes full width */
     text-align: center; /* Center the image */
 }
 
@@ -846,6 +846,11 @@ header .navbar {
 /* Responsive media query code for max width 640px */
 @media screen and (max-width: 640px) { 
 	
+
+		.research-section .section-content .research-details1 .research-image_system {
+		max-width: 100%;
+	}
+
 	.predesign-section .section-content {
 		flex-direction: column;
 	}
