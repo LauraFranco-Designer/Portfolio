@@ -231,6 +231,64 @@ header .navbar {
 }
 
 
+/* Personal reflection */
+.personal-section { 
+	padding: 23px 0px 23px 0px;
+	background: var(--primary-color);
+}
+
+.personal-section .section-title { 
+	padding: 23px 0px 23px 0px;
+	color: var(--light-color);
+	text-align: center;
+}
+
+.personal-section .section-content { 
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align content */
+    text-align: center;
+    gap: 20px; /* Adjust spacing */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.personal-section .section-content .section-container .tasks-list { 
+    padding: 0px 0px 23px 0px;
+    display: flex; /* Apply flexbox to the container */
+    flex-wrap: wrap; /* Allow wrapping of tasks if necessary */
+    flex-direction: row;
+    justify-content: space-between; /* Distribute tasks evenly */
+}
+
+.personal-section .tasks { 
+	display: flex;
+	padding: 23px;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	flex: 0 0 100%; /* Adjust to allow 4 in a row with some spacing */
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+.personal-section .tasks .task-title { 
+	margin-top: 0px;
+	margin-bottom: 18px;
+	font-size: var(--font-size-m);
+	color: var(--light-color);
+}
+
+.personal-section .tasks .description  { 
+	line-height: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: var(--font-size-m);
+	color: var(--light-color);
+	max-width: 100%;
+}
+
+
+
 /* Research section styling */
 .research-section { 
 	padding: 23px 0px 23px 0px;
@@ -541,6 +599,81 @@ header .navbar {
     width: 50%; /* Ensure it takes full width */
     text-align: center; /* Center the image */
 }
+
+
+/* Design Goal section styling */
+.workinprogress-section { 
+	padding: 23px 0px 23px 0px;
+	background: var(--primary-color);
+}
+
+.workinprogress-section .section-title { 
+	padding: 23px 0px 23px 0px;
+	color: var(--light-color);
+	text-align: center;
+}
+
+.workinprogress-section .section-content { 
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align content */
+    text-align: center;
+    gap: 20px; /* Adjust spacing */
+    width: 100%; /* Ensure it takes full width */
+}
+
+/* Detail 1 */
+.workinprogress-section .workinprogress-details1 { 
+    width: 100%; /* Take full width */
+    max-width: 100%; /* Ensure no restriction */
+}
+
+.workinprogress-section .workinprogress-details1 .workinprogress-image { 
+    max-width: 10%;
+}
+
+.workinprogress-section .workinprogress-details1 .text { 
+    line-height: 30px;
+    margin:23px 0px 23px 0px;
+    text-align: center;
+    font-size: var(--font-size-m);
+    color: var(--light-color);
+}
+
+.workinprogress-section .section-content .buttons { 
+	display: flex;
+	justify-content: center;
+}
+
+.workinprogress-section .section-content .button { 
+	padding: 10px 26px;
+	border: 2px solid transparent;
+	color: var(--light-color);
+	border-radius: var(--border-radius-m);
+	background: var(--secondary-color);
+	font-weight: var(--font-weight-medium);
+	transition: 0.3s ease;
+}
+
+.workinprogress-section .section-content .button:hover,
+.workinprogress-section .section-content .button .full-report { 
+	color: var(--secondary-color);
+	border-color: var(--secondary-color);
+	background: transparent;
+}
+
+.workinprogress-section .about-details .contact-me:hover  { 
+	color: var(--light-color);
+	border-color: var(--secondary-color);
+	background: var(--secondary-color);
+}
+  
+.workinprogress-section .section-content {
+	display: flex;
+	flex-direction: column; /* 🔥 importante per disposizione verticale */
+	align-items: center;     /* centra tutto orizzontalmente */
+	text-align: center;      /* centra il testo */
+  }
 
 /* Recap Section styling */
 .recap-section {
