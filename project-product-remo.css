@@ -323,11 +323,15 @@ header .navbar {
     color: var(--dark-color);
 }
 
-.research-section img { 
+.research-section .research-image_system { 
     width: 60%; /* Ensure it takes full width */
     text-align: center; /* Center the image */
 }
 
+.research-section .research-image_journey { 
+    width: 60%; /* Ensure it takes full width */
+    text-align: center; /* Center the image */
+}
 
 /* Before the redesign */
 .predesign-section { 
@@ -640,6 +644,18 @@ header .navbar {
 	.predesign-section .section-content {
 		flex-direction: column;
 	}
+	
+.research-section .research-image_system { 
+    width: 100%; /* Ensure it takes full width */
+    text-align: center; /* Center the image */
+}
+
+
+.research-section .research-image_journey { 
+    width: 100%; /* Ensure it takes full width */
+    text-align: center; /* Center the image */
+}
+
 
 	.footer-section .section-content {
 		flex-direction: column;
