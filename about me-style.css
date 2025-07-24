@@ -437,6 +437,68 @@ position: relative;
 	color: var(--secondary-color);
 }
 
+/* col-md-7*/
+.timeline-section .carousel-inner .carousel-item .col-md-7 .buttons { 
+	display: flex;
+	flex-wrap: wrap;
+	gap: 23px;
+	justify-content: left;
+}
+
+.timeline-section .carousel-inner .carousel-item .col-md-7 .button { 
+	padding: 10px 26px;
+	border: 2px solid transparent;
+	color: var(--light-color);
+	border-radius: var(--border-radius-m);
+	background: var(--secondary-color);
+	font-weight: var(--font-weight-medium);
+	transition: 0.3s ease;
+}
+
+.timeline-section .carousel-inner .carousel-item .col-md-7 .button:hover,
+.timeline-section .carousel-inner  .carousel-item .col-md-7 .contact-me { 
+	color: var(--secondary-color);
+	border-color: var(--secondary-color);
+	background: transparent;
+}
+
+.timeline-section .carousel-inner .carousel-item .col-md-7 .contact-me:hover  { 
+	color: var(--light-color);
+	border-color: var(--secondary-color);
+	background: var(--secondary-color);
+}
+
+/* col-md-5*/
+.timeline-section .carousel-inner .carousel-item .col-md-5 .buttons { 
+	display: flex;
+	gap: 23px;
+	justify-content: left;
+}
+
+.timeline-section .carousel-inner .carousel-item .col-md-5 .button { 
+	padding: 10px 26px;
+	border: 2px solid transparent;
+	color: var(--light-color);
+	border-radius: var(--border-radius-m);
+	background: var(--secondary-color);
+	font-weight: var(--font-weight-medium);
+	transition: 0.3s ease;
+}
+
+.timeline-section .carousel-inner .carousel-item .col-md-5 .button:hover,
+.timeline-section .carousel-inner  .carousel-item .col-md-5 .contact-me { 
+	color: var(--secondary-color);
+	border-color: var(--secondary-color);
+	background: transparent;
+}
+
+.timeline-section .carousel-inner .carousel-item .col-md-5 .contact-me:hover  { 
+	color: var(--light-color);
+	border-color: var(--secondary-color);
+	background: var(--secondary-color);
+}
+
+
 /* Where I have Been Section styling */
 .whereilive-section { 
 	padding: 46px 0px 23px 0px;
